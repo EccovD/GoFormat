@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	f, err := excelize.OpenFile("test1.xlsx")
+	f, err := excelize.OpenFile("input.xlsx")
 	if err != nil {
 		fmt.Println(err)
 		return
